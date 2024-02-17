@@ -1,6 +1,6 @@
 # Shawn's GitHub Page
 
-Intro
+Welcome to my ePortfolio! This protfolio outlines three areas of focus including software design and engineering, algoorithm and data structures, and databases. I've also included a code review of an application before enhancements were performed.
 
 ## Code Review
 My code review was done on my Android inventory app. As part of my review, I pointed out screens that had didn't function as intended. The list of inventory didn't refresh after an item was delete. Inventory also wasn't tied to a specific user meaning anyone logged in coul see the inventory.
