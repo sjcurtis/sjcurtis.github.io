@@ -4,6 +4,7 @@ Intro
 
 ## Code Review
 My code review was done on my Android inventory app. As part of my review, I pointed out screens that had didn't function as intended. The list of inventory didn't refresh after an item was delete.
+
 Link: [Code Review](https://github.com/sjcurtis/sjcurtis.github.io/blob/main/Code%20Review%20Compressed.mp4)
 
 ## Software Design and Engineering
