@@ -3,7 +3,11 @@
 Intro
 
 ## Code Review
-My code review was done on my Android inventory app. As part of my review, I pointed out screens that had didn't function as intended. The list of inventory didn't refresh after an item was delete.
+My code review was done on my Android inventory app. As part of my review, I pointed out screens that had didn't function as intended. The list of inventory didn't refresh after an item was delete. Inventory also wasn't tied to a specific user meaning anyone logged in coul see the inventory.
+
+Security recommendations regarding enrollment and login were also discussed. Enrollment allowed for a single character password which doesn't provide significant security. Secrity could be improved by setting password requirements. MFA would also improve security.
+
+The last part I review was styling and comments. The styling was consistent and followed common Java practices. Comments were light though and missed blocks of comments documenting processes.
 
 Link: [Code Review](https://github.com/sjcurtis/sjcurtis.github.io/blob/main/Code%20Review%20Compressed.mp4)
 
