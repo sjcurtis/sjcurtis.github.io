@@ -3,6 +3,11 @@
 
 Welcome to my ePortfolio! This protfolio outlines three areas of focus including software design and engineering, algoorithm and data structures, and databases. I've also included a code review of an application before enhancements were performed.
 
+## About Me
+I started my computer science journey during my jounior year of high school 20 years ago. After high school, I attended a local community college where I completed an associates in Business and Information Technology degree. I then went on to start a degree in computer science but never finished. Last year, I decide to finish up my degree and decided on Southern New Hamshire University. This term will wrap up my computer science courses at SNHU and next term will wrap the rest of my courses. I'll have a few transfer courses to finish and transfer over. 
+
+I've also been working as a full stack developer for a credit union over the last eight years. During that time, I've worked on .NET, Java, Angular, and SQL projects.
+
 ## Code Review
 My code review was done on my Android inventory app. As part of my review, I pointed out screens that had didn't function as intended. The list of inventory didn't refresh after an item was delete. Inventory also wasn't tied to a specific user meaning anyone logged in coul see the inventory.
 
@@ -11,6 +16,8 @@ Security recommendations regarding enrollment and login were also discussed. Enr
 The last part I review was styling and comments. The styling was consistent and followed common Java practices. Comments were light though and missed blocks of comments documenting processes.
 
 Link: [Code Review](https://github.com/sjcurtis/sjcurtis.github.io/blob/main/Code%20Review%20Compressed.mp4)
+
+
 
 ## Software Design and Engineering
 
@@ -34,3 +41,4 @@ Original Artifact: [Click Here](https://github.com/sjcurtis/sjcurtis.github.io/t
 
 ## References
 - Generate Header Images: https://leviarista.github.io/github-profile-header-generator/
+- MP4 Compressor: https://www.veed.io/edit/78bf2d2a-e9c2-406b-adc5-038084c83bd2/compress?source=%2Ftools%2Fvideo-compressor%2Fmp4-compressor
