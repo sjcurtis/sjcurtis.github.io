@@ -29,13 +29,13 @@ I met the course objectives that I planned out. The readme demonstrates the abil
 
 .NET isn’t new to me, but I am a bit rusty. The biggest challenge, I usually face, is setting up Entity Framework using a code first approach. It takes time to get the models and code setup to be able to start doing database migrations. Once everything is linked together and the first database migration works then it’s easy to start adding enhancements.
 
-Original Artifact: [Android Inventory App](./OriginalInventoryApp)
+Original Artifact: [Android Inventory App](./AndroidInventoryApp)
 Updated Artifact: [Android Inventory App](./InventoryProjectSecurityUpdate)
 
 ## Algorithm and Data Structures
 
 
-Original Artifact: [Android Inventory App](./OriginalInventoryApp)
+Original Artifact: [Android Inventory App](./AndroidInventoryApp)
 Updated Artifact: [Android Inventory App](./InventoryProjectSecurityUpdate)
 
 ## Database
