@@ -34,6 +34,7 @@ Original Artifact: [Click Here](https://github.com/sjcurtis/sjcurtis.github.io/t
 ## Algorithm and Data Structures
 
 
+Link: [Animal Shelter Juypiter Notebook](./JuypiterNotebook)
 
 ## Database
 
@@ -42,3 +43,4 @@ Original Artifact: [Click Here](https://github.com/sjcurtis/sjcurtis.github.io/t
 ## References
 - Generate Header Images: https://leviarista.github.io/github-profile-header-generator/
 - MP4 Compressor: https://www.veed.io/edit/78bf2d2a-e9c2-406b-adc5-038084c83bd2/compress?source=%2Ftools%2Fvideo-compressor%2Fmp4-compressor
+ 
