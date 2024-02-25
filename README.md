@@ -79,10 +79,12 @@ Updated Artifact: [Android Inventory App](./InventoryProjectSecurityUpdate)
 This project involved recreating an existing Jupyter Notebook in .NET. In a previous term, I worked on creating an animal shelter database in MongoDB. I also created a Python CRUD API that interfaced with the database. The last step was to create a Juypter Notebook as a dashboard using the API. The notebook displayed data and a couple of charts to the user.
 
 ### Narrative
+I had some challenges with this migration. My first goal was to identity what portions of the project were reusable. I started by checking the MongoDB and Python API. It would have been easy if I just had to add a new interface. I checked NuGet to see if there was a way to call the existing Python script came up short. The two main options I found were to run the script as a new process which wouldn’t be easy for future developers to work with. The other option was various NuGet packages, but none of them had the exact features I needed. This forced me to keep the MongoDB and rewrite the API.
 
+The next step was to create a simple interface and try pulling data into a table. Once I could get the data into a table, I used DataTables to handle the formatting and extra features, like paging. The pie charts took a lot longer than I was expecting. I broke the problem down by just getting the charts to display with example data. The next step was to get a chart working with data and labels from the controller. Once one chart was working, it was easy to copy the chart and specify different data sets. I enjoy analyzing the data and displaying different data sets.
 
 ### Course Outcomes
-
+The outcomes I focused on for this project were a collaborative environment and a professional communication. I used GIT to allow future developers to branch and merge back into the projects. Developers can use feature branches to code changes without affecting what others are working on. I also wrote this project so managers and stakeholders could access the data for reports. The table is search able so managers can look for relevant data. The charts can answer business questions too. Stakeholders can request changes to the report, creating collaboration between developers and stakeholders to solve business decisions.  
 
 ### Links to Artifacts
 
