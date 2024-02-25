@@ -66,7 +66,7 @@ The second option was to loop once through the string and check if each characte
 Figure 1.
 
 ### Course Outcomes
-
+Security and algorithms were the goal for this one. The password complexity was a design flaw in the original artifact. A single character password doesn’t add any protection for the user. The new algorithm checks for minimum complexity. The algorithm also allows for flexibility if complexity requirements change in the future. A developer can increase the minimums or require a longer password.
 
 ### Links to Artifacts
 
