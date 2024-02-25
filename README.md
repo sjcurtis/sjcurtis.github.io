@@ -11,6 +11,7 @@ I've also been working as a full stack developer for a credit union over the las
 One of the applications I've worked on include a rewards program. I helped design and implement the underlying SQL database. We also had to design and admin portal and integrate the application into various banking systems. I've also worked with Jenkins to design and implement automation pipelines. These pipelines include automated testing, building, and deploying to various environments. Mentoring is something that's important to me and I've had opportunties to help train new developers joining the team.
 
 ## Code Review
+
 My code review was done on my Android inventory app. As part of my review, I pointed out screens that had didn't function as intended. The list of inventory didn't refresh after an item was delete. Inventory also wasn't tied to a specific user meaning anyone logged in coul see the inventory.
 
 Security recommendations regarding enrollment and login were also discussed. Enrollment allowed for a single character password which doesn't provide significant security. Secrity could be improved by setting password requirements. MFA would also improve security.
@@ -23,8 +24,6 @@ Link: [Code Review](https://github.com/sjcurtis/sjcurtis.github.io/blob/main/Cod
 
 ## Software Design and Engineering
 
-
-
 This artifact is a rewrite of an inventory application for Android rewritten in .NET. I selected this application because it covers a lot of the course outcomes. The biggest areas are software engineering techniques and communication. This artifact also demonstrates some security aspects. The artifact demonstrates database design and integration, and I used Entity Framework to accomplish this. Entity Framework is also a popular method to integrate with MVC and will look good in a portfolio. Using MVC helps separate logic from models and views and pushes it into the controller.
 
 I met the course objectives that I planned out. The readme demonstrates the ability to communicate project information to other developers. Security is demonstrated by requiring users to register and login. Inventory is also tied to the user who created it. Using MVC and Entity Framework are modern approaches to develop web-based solutions. MVC allows logic to be separated and can be used in larger teams. 
@@ -35,15 +34,15 @@ Original Artifact: [Android Inventory App](./AndroidInventoryApp)
 
 Updated Artifact: [Android Inventory App](./InventoryProjectSecurityUpdate)
 
-## Algorithm and Data Structures
 
+## Algorithm and Data Structures
 
 Original Artifact: [Android Inventory App](./AndroidInventoryApp)
 
 Updated Artifact: [Android Inventory App](./InventoryProjectSecurityUpdate)
 
-## Database
 
+## Database
 
 Original Artifact: [Animal Shelter Juypiter Notebook](./JuypiterNotebook)
 
