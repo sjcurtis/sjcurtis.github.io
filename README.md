@@ -30,6 +30,11 @@ This artifact is a rewrite of an inventory application for Android rewritten in 
 
 The goal of this project was to convert my Android inventory app to C# .NET. The original artifact was written in Android using Java with a SQL database. The app consisted of a login page where users could enroll or log in using the form. Logged-in users could create, edit, and delete inventory from a list. Users could also update quantities. My first step was to look at parts of the application that could be reused. The SQL database came close. Unfortunately, the database was built into the project. Ideally, if the database was hosted externally from the project, then I could just write an API to make calls to the database. Anyway, this ended up needing to be created from scratch.
 
+I started with a new .NET project with HTTPS enabled for best security practices. This would encrypt traffic for the user. The next step was to create a SQL database. I used an Entity Framework code first approach. The approach has the user create models first. The models are then used to script the creation of the database based on the models. After the migrations were run, I could look at the database to verify the structure is what I was expecting. It took a few migrations to get the scheme correct. 
+
+The next step was to create controllers and start pulling data. I added an inventory controller and used breakpoints and watch windows to verify the data coming back from the database. I then created a view with a table to list items in the table. It was then easy to expand the CRUD operations.
+
+The last step was to add login and enrollment functionality. I added a separate controller for enrollment so the logic could be easily expanded in the future.
 
 
 ### Course Outcomes
