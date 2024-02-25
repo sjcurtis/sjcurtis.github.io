@@ -32,7 +32,7 @@ I met the course objectives that I planned out. The readme demonstrates the abil
 
 Original Artifact: [Android Inventory App](./AndroidInventoryApp)
 
-Updated Artifact: [.NET Inventory App](./DotNetInventory App)
+Updated Artifact: [.NET Inventory App](./DotNetInventoryApp)
 
 
 ## Algorithm and Data Structures
