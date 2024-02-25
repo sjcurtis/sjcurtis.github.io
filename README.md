@@ -60,7 +60,8 @@ There are two ways I thought of regarding the validation of the complexity. The 
 
 The second option was to loop once through the string and check if each character matched one of the requirements. I’ve included a diagram modeling of the algorithm as Figure 1. The next step was to create a function that implemented the algorithm. Then the function could be called during enrollment.
 
-![Figure 1.](./PasswordAlgorithm.drawio.png)
+[Figure 1.](./PasswordAlgorithm.drawio.png)
+Figure 1.
 
 ### Course Outcomes
 
