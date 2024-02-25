@@ -76,6 +76,12 @@ Updated Artifact: [Android Inventory App](./InventoryProjectSecurityUpdate)
 
 
 ## Database
+This project involved recreating an existing Jupyter Notebook in .NET. In a previous term, I worked on creating an animal shelter database in MongoDB. I also created a Python CRUD API that interfaced with the database. The last step was to create a Juypter Notebook as a dashboard using the API. The notebook displayed data and a couple of charts to the user.
+
+### Narrative
+
+
+### Course Outcomes
 
 
 ### Links to Artifacts
