@@ -28,7 +28,7 @@ This artifact is a rewrite of an inventory application for Android rewritten in 
 
 ### Narrative
 
-The goal of this project was to convert my Android inventory app to C# .NET. The original artifact was written in Android using Java with a SQL database. The app consisted of a login page where users could enroll or log in using the form. Logged-in users could create, edit, and delete inventory from a list. Users could also update quantities. My first step was to look at parts of the application that could be reused. The SQL database came close. Unfortunately, the database was built into the project. Ideally, if the database was hosted externally from the project then I could just write an API to make calls to the database. Anyway, this ended up needing to be created from scratch.
+The goal of this project was to convert my Android inventory app to C# .NET. The original artifact was written in Android using Java with a SQL database. The app consisted of a login page where users could enroll or log in using the form. Logged-in users could create, edit, and delete inventory from a list. Users could also update quantities. My first step was to look at parts of the application that could be reused. The SQL database came close. Unfortunately, the database was built into the project. Ideally, if the database was hosted externally from the project, then I could just write an API to make calls to the database. Anyway, this ended up needing to be created from scratch.
 
 
 
