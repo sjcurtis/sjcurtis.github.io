@@ -39,9 +39,9 @@ The last step was to add login and enrollment functionality. I added a separate 
 
 ### Course Outcomes
 
-I met the course objectives that I planned out. The readme demonstrates the ability to communicate project information to other developers. Security is demonstrated by requiring users to register and login. Inventory is also tied to the user who created it. Using MVC and Entity Framework are modern approaches to develop web-based solutions. MVC allows logic to be separated and can be used in larger teams. 
+The course outcome I focused on for this project was the ability to use innovative skills and tools. I also considered security when migrating from the old app. Entity Framework is a helpful tool for modeling databases. Once a model is created, it then makes MVC easier. MVC allows for the separation of logic making maintenance in the future easier. Entity Framework also helps with security by sanitizing queries. 
 
-.NET isn’t new to me, but I am a bit rusty. The biggest challenge, I usually face, is setting up Entity Framework using a code first approach. It takes time to get the models and code setup to be able to start doing database migrations. Once everything is linked together and the first database migration works then it’s easy to start adding enhancements.
+The project also implements HTTPS that encrypts the connection to the application. Users also have to register and can only see inventory for which they added. An improvement over the previous project.
 
 Original Artifact: [Android Inventory App](./AndroidInventoryApp)
 
