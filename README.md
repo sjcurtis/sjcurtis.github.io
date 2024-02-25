@@ -43,6 +43,8 @@ The course outcome I focused on for this project was the ability to use innovati
 
 The project also implements HTTPS that encrypts the connection to the application. Users also have to register and can only see inventory for which they added. An improvement over the previous project.
 
+### Links to Artifacts
+
 Original Artifact: [Android Inventory App](./AndroidInventoryApp)
 
 Updated Artifact: [.NET Inventory App](./DotNetInventoryApp)
