@@ -67,12 +67,18 @@ Figure 1.
 
 ### Course Outcomes
 
+
+### Links to Artifacts
+
 Original Artifact: [Android Inventory App](./AndroidInventoryApp)
 
 Updated Artifact: [Android Inventory App](./InventoryProjectSecurityUpdate)
 
 
 ## Database
+
+
+### Links to Artifacts
 
 Original Artifact: [Animal Shelter Juypiter Notebook](./JuypiterNotebook)
 
