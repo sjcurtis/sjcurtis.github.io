@@ -50,6 +50,20 @@ Updated Artifact: [.NET Inventory App](./DotNetInventoryApp)
 
 ## Algorithm and Data Structures
 
+For this portion, I reused the Android Inventory App again because of a glaring problem in security. Users could create a one character password. It would take no time at all to crack. The goal with this artifact was to improve security and then update the algorithm for validating password complexity.
+
+### Narrative
+
+To get started, I first had to design a new algorithm. A longer password is harder to crack and decided on a length of eight. I also decided on uppercase, lowercase, digits, and special characters. 
+
+There are two ways I thought of regarding the validation of the complexity. The first option is to use built in string functions to check if a string has at least one of each of the requirements. I could also use a built in length function to check the length. Each of these function calls will require a loop through the string. This would require five loops.
+
+The second option was to loop once through the string and check if each character matched one of the requirements. I’ve included a diagram modeling of the algorithm as Figure 1. The next step was to create a function that implemented the algorithm. Then the function could be called during enrollment.
+
+![Figure 1.](./PasswordAlgorithm.drawio.png)
+
+### Course Outcomes
+
 Original Artifact: [Android Inventory App](./AndroidInventoryApp)
 
 Updated Artifact: [Android Inventory App](./InventoryProjectSecurityUpdate)
