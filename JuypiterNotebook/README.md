@@ -26,8 +26,8 @@ I recommend running this from VS Code. Dependencies may be required to start the
 
 ### Dependencies Needed for Jupyter
 
-pip install -U --force-reinstall ipykernel
-pip install jupyter-dash
-pip install pandas
-pip install matplotlib
-pip install pymongo
+- pip install -U --force-reinstall ipykernel
+- pip install jupyter-dash
+- pip install pandas
+- pip install matplotlib
+- pip install pymongo
