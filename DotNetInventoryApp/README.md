@@ -1,4 +1,4 @@
-# Inventory Application
+# Inventory Application
 
 ## Description
 This application is used to track inventory and quantities. Application also allows for users to enroll and login. Users can create their own list of inventory where they can maintain quantities. Users can also delete items from their inventory.
