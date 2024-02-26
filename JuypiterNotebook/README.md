@@ -1,4 +1,5 @@
 # Animal Shelter Notebook
+This project consists of a Jupyter Notebook that connects to a MongoDB via a Python CRUD API. The database has a collect that contains data from an animal shelter.
 
 ## Getting Started
 I recommend running this from VS Code. Dependencies may be required to start the project. See the dependencies. The connection string, in the notebook and Python script, may need to be modified depending upon your setup.
