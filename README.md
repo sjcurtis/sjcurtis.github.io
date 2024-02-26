@@ -71,7 +71,7 @@ To get started, I first had to design a new algorithm. A longer password is hard
 
 There are two ways I thought of regarding the validation of the complexity. The first option is to use built in string functions to check if a string has at least one of each of the requirements. I could also use a built in length function to check the length. Each of these function calls will require a loop through the string. This would require five loops.
 
-The second option was to loop once through the string and check if each character matched one of the requirements. I’ve included a diagram modeling of the algorithm as Figure 1. The next step was to create a function that implemented the algorithm. Then the function could be called during enrollment.
+The second option was to loop once through the string and check if each character matched one of the requirements. I’ve included a diagram modeling of the algorithm as figure 1. The next step was to create a function that implemented the algorithm. Then the function could be called during enrollment.
 
 ![Figure 1.](./PasswordAlgorithm.drawio.png)
 Figure 1.
