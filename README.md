@@ -3,12 +3,19 @@
 
 Welcome to my ePortfolio! This portfolio outlines three areas of focus, including software design and engineering, algorithm and data structures, and databases. I’ve also included a code review of an application before enhancements were performed.
 
-## About Me
-I started my computer science journey during my jounior year of high school 20 years ago. After high school, I attended a local community college where I completed an associates in Business and Information Technology degree. I then went on to start a degree in computer science but never finished. Last year, I decide to finish up my degree and decided on Southern New Hamshire University. This term will wrap up my computer science courses at SNHU and next term will wrap the rest of my courses. I'll have a few transfer courses to finish and transfer over. 
+## Professional Self-Assessment 
 
-I've also been working as a full stack developer for a credit union over the last eight years. During that time, I've worked on .NET, Java, Angular, and SQL projects. 
+I started my computer science journey during my junior year of high school 20 years ago. After high school, I attended a local community college where I completed an associate in Business and Information Technology degree. I then went on to start a degree in computer science but never finished. Last year, I decide to finish up my degree and decided on Southern New Hampshire University. This term will wrap up my computer science courses at SNHU and the next term will wrap the rest of my courses. I’ll have a few transfer courses to finish and transfer over.
 
-One of the applications I've worked on include a rewards program. I helped design and implement the underlying SQL database. We also had to design and admin portal and integrate the application into various banking systems. I've also worked with Jenkins to design and implement automation pipelines. These pipelines include automated testing, building, and deploying to various environments. Mentoring is something that's important to me and I've had opportunties to help train new developers joining the team.
+I’ve also been working as a full stack developer for a credit union over the last eight years. During that time, I’ve worked on .NET, Java, Angular, and SQL projects.
+
+One of the applications I’ve worked on includes a rewards program. I helped design and implement the underlying SQL database. We also had to design and admin portal and integrate the application into various banking systems. I’ve also worked with Jenkins to design and implement automation pipelines. These pipelines include automated testing, building, and deploying to various environments. Mentoring is something that’s important to me and I’ve had opportunities to help train new developers joining the team.
+
+I’ve enjoyed my time here at SNHU. I like the quick pace of the terms although sometime longer deadlines would be nice. Just like the workplace, deadlines sometimes can’t be extended and late nights are required.
+
+A few of the courses I’ve enjoyed are the testing, Juypter Notebooks, and the full stack class. The testing class was a more formal approach to writing tests and learning about various testing approaches. Juypter Notebooks were interesting because it showed a new perspective on sharing information between people. Notebooks could also outline different approaches, with examples, to help get developers up to speed. 
+
+I also got to learn about the MEAN stack and compare and contrast it with the .NET stack that I’m used to. MongoDB uses collections which work well for data sets. I’m used to SQL and creating relational databases. MEAN also uses Angular for frontend views. Angular allows for the creation of reusable components compared to .NET that has partials.
 
 ## Code Review
 
