@@ -79,7 +79,7 @@ Security and algorithms were the goal for this one. The password complexity was 
 
 Original Artifact: [Android Inventory App](./AndroidInventoryApp)
 
-Updated Artifact: [Android Inventory App Security Update](./InventoryProjectSecurityUpdate)
+Updated Artifact: [Android Inventory App - Security Update](./InventoryProjectSecurityUpdate)
 
 
 ## Database
