@@ -1,7 +1,7 @@
 ![Header](./github-header-image.png)
 # Shawn's GitHub Page
 
-Welcome to my ePortfolio! This protfolio outlines three areas of focus including software design and engineering, algoorithm and data structures, and databases. I've also included a code review of an application before enhancements were performed.
+Welcome to my ePortfolio! This portfolio outlines three areas of focus, including software design and engineering, algorithm and data structures, and databases. I’ve also included a code review of an application before enhancements were performed.
 
 ## About Me
 I started my computer science journey during my jounior year of high school 20 years ago. After high school, I attended a local community college where I completed an associates in Business and Information Technology degree. I then went on to start a degree in computer science but never finished. Last year, I decide to finish up my degree and decided on Southern New Hamshire University. This term will wrap up my computer science courses at SNHU and next term will wrap the rest of my courses. I'll have a few transfer courses to finish and transfer over. 
@@ -90,7 +90,7 @@ The outcomes I focused on for this project were a collaborative environment and 
 
 Original Artifact: [Animal Shelter Juypiter Notebook](./JuypiterNotebook)
 
-Updated Artifact: [Android Inventory App](./InventoryProjectSecurityUpdate)
+Updated Artifact: [Android Inventory App](./DotNetAnimalShelter)
 
 ## References
 - Generate Header Images: https://leviarista.github.io/github-profile-header-generator/

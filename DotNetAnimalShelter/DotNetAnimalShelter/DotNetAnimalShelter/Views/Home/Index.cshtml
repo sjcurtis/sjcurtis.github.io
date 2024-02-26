@@ -1,0 +1,115 @@
+﻿@*//////////////////////////////////////////////////////////////////////////
+/// Developer: Shawn Curtis
+/// Contact: shawn.curtis@snhu.edu
+/// Date: 2/11/2024
+/// Version: 1.0.0
+/// Purpose: Displays reports to the user.
+//////////////////////////////////////////////////////////////////////////﻿*@
+@using ChartJSCore.Models;
+@model IEnumerable<DotNetAnimalShelter.Models.Animal>
+
+@{
+    ViewData["Title"] = "Home Page";
+
+	ChartJSCore.Models.Chart chart = (ChartJSCore.Models.Chart)ViewData["BreedCountData"];
+	ChartJSCore.Models.Chart chart2 = (ChartJSCore.Models.Chart)ViewData["SexUponOutcomeCountData"];
+	ChartJSCore.Models.Chart chart3 = (ChartJSCore.Models.Chart)ViewData["AnimalTypeCountData"];
+	ChartJSCore.Models.Chart chart4 = (ChartJSCore.Models.Chart)ViewData["OutcomeTypeCountData"];
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+</div>
+
+@* Displays a table of all animals in the shelter *@
+<table id="animalList" class="display" style="width:50%">
+	<thead>
+		<tr>
+			<th>@Html.DisplayNameFor(model => model.RecNum)</th>
+			<th>@Html.DisplayNameFor(model => model.AgeUponOutcome)</th>
+			<th>@Html.DisplayNameFor(model => model.AnimalId)</th>
+			<th>@Html.DisplayNameFor(model => model.AnimalType)</th>
+			<th>@Html.DisplayNameFor(model => model.Breed)</th>
+			<th>@Html.DisplayNameFor(model => model.Color)</th>
+			<th>@Html.DisplayNameFor(model => model.DateOfBirth)</th>
+			<th>@Html.DisplayNameFor(model => model.DateTime)</th>
+			<th>@Html.DisplayNameFor(model => model.MonthYear)</th>
+			<th>@Html.DisplayNameFor(model => model.Name)</th>
+			<th>@Html.DisplayNameFor(model => model.OutcomeSubtype)</th>
+			<th>@Html.DisplayNameFor(model => model.OutcomeType)</th>
+			<th>@Html.DisplayNameFor(model => model.SexUponOutcome)</th>
+			<th>@Html.DisplayNameFor(model => model.LocationLat)</th>
+			<th>@Html.DisplayNameFor(model => model.LocationLong)</th>
+			<th>@Html.DisplayNameFor(model => model.AgeUponOutcomeInWeeks)</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (Animal animal in Model)
+		{
+			<tr>
+				<td>@Html.DisplayFor(modelItem => animal.RecNum)</td>
+				<td>@Html.DisplayFor(modelItem => animal.AgeUponOutcome)</td>
+				<td>@Html.DisplayFor(modelItem => animal.AnimalId)</td>
+				<td>@Html.DisplayFor(modelItem => animal.AnimalType)</td>
+				<td>@Html.DisplayFor(modelItem => animal.Breed)</td>
+				<td>@Html.DisplayFor(modelItem => animal.Color)</td>
+				<td>@Html.DisplayFor(modelItem => animal.DateOfBirth)</td>
+				<td>@Html.DisplayFor(modelItem => animal.DateTime)</td>
+				<td>@Html.DisplayFor(modelItem => animal.MonthYear)</td>
+				<td>@Html.DisplayFor(modelItem => animal.Name)</td>
+				<td>@Html.DisplayFor(modelItem => animal.OutcomeSubtype)</td>
+				<td>@Html.DisplayFor(modelItem => animal.OutcomeType)</td>
+				<td>@Html.DisplayFor(modelItem => animal.SexUponOutcome)</td>
+				<td>@Html.DisplayFor(modelItem => animal.LocationLat)</td>
+				<td>@Html.DisplayFor(modelItem => animal.LocationLong)</td>
+				<td>@Html.DisplayFor(modelItem => animal.AgeUponOutcomeInWeeks)</td>
+			</tr>
+		}
+	</tbody>
+</table>
+
+<hr />
+
+@* Display charts *@
+<div class="row">
+	<div class="col-sm">
+		<h5 class="card-title">Count of Breeds Containing at Least 50 Animals</h5> 
+		<canvas id="breedCountChart"></canvas>
+	</div>
+	<div class="col-sm">
+		<h5 class="card-title">Count of Sex Upon Outcome</h5>
+		<canvas id="sexUponOutcomeChart"></canvas>
+	</div>
+
+	<div class="col-sm">
+		<h5 class="card-title">Count of Animal Types</h5>
+		<canvas id="animalTypeChart"></canvas>
+	</div>
+	<div class="col-sm">
+		<h5 class="card-title">Count of Outcome Types</h5>
+		<canvas id="outcomeTypeChart"></canvas>
+	</div>
+</div>
+
+
+@section Scripts {
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+	<script>
+		@Html.Raw(chart.CreateChartCode("breedCountChart"))
+		@Html.Raw(chart2.CreateChartCode("sexUponOutcomeChart"))
+		@Html.Raw(chart3.CreateChartCode("animalTypeChart"))
+		@Html.Raw(chart4.CreateChartCode("outcomeTypeChart"))
+
+			
+	</script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+	<link rel="stylesheet" href="https://cdn.datatables.net/1.13.7/css/jquery.dataTables.css" />
+	<script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.js"></script>
+
+	<script>
+		// Creates the data table
+		new DataTable('#animalList');
+	</script>
+}
