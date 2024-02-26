@@ -11,11 +11,15 @@ I’ve also been working as a full stack developer for a credit union over the l
 
 One of the applications I’ve worked on includes a rewards program. I helped design and implement the underlying SQL database. We also had to design and admin portal and integrate the application into various banking systems. I’ve also worked with Jenkins to design and implement automation pipelines. These pipelines include automated testing, building, and deploying to various environments. Mentoring is something that’s important to me and I’ve had opportunities to help train new developers joining the team.
 
+I’ve also seen how collaboration and communication affect a team. I’m a big believer in Scrum and another skill I helped to incorporate into our team. Daily updates help to let other developers know where everyone is at. Stakeholders get regular updates which allow for updates to project direction. I would often give updates to stakeholders about a new feature that was implemented.
+
 I’ve enjoyed my time here at SNHU. I like the quick pace of the terms although sometime longer deadlines would be nice. Just like the workplace, deadlines sometimes can’t be extended and late nights are required.
 
 A few of the courses I’ve enjoyed are the testing, Juypter Notebooks, and the full stack class. The testing class was a more formal approach to writing tests and learning about various testing approaches. Juypter Notebooks were interesting because it showed a new perspective on sharing information between people. Notebooks could also outline different approaches, with examples, to help get developers up to speed. 
 
 I also got to learn about the MEAN stack and compare and contrast it with the .NET stack that I’m used to. MongoDB uses collections which work well for data sets. I’m used to SQL and creating relational databases. MEAN also uses Angular for frontend views. Angular allows for the creation of reusable components compared to .NET that has partials.
+
+The artifacts I chose showcase a range of skill sets. I didn’t want a portfolio that limited me to a few select job opportunities. Ideally I would target a .NET position but job markets change. Having mobile, Java, and Angular developer skill sets creates opportunities.
 
 ## Code Review
 
