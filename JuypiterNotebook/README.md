@@ -27,6 +27,6 @@ The following command will use the admin password, created in the previous step,
 
 - `pip install -U --force-reinstall ipykernel`
 - `pip install jupyter-dash`
-- pip install pandas
-- pip install matplotlib
-- pip install pymongo
+- `pip install pandas`
+- `pip install matplotlib`
+- `pip install pymongo`
