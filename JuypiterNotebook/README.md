@@ -22,12 +22,11 @@ User the following command to verify the user was added.
 The following command will use the admin password, created in the previous step, and import the anmial collection from the aac_shelter_outcomes.csv.
 
 `./mongoimport.exe --username="admin" --password="1234" --port=27017 --host=127.0.0.1 --db AAC --collection animals --authenticationDatabase admin --drop ./AAC.animals.csv --type=csv --fields="rec_num","age_upon_outcome","animal_id","animal_type","breed","color","date_of_birth","datetime","monthyear","name","outcome_subtype","outcome_type","sex_upon_outcome","location_lat","location_long","age_upon_outcome_in_weeks"`
-I recommend running this from VS Code. Dependencies may be required to start the project. See the dependencies.
 
 ### Dependencies Needed for Jupyter
 
-- pip install -U --force-reinstall ipykernel
-- pip install jupyter-dash
+- `pip install -U --force-reinstall ipykernel`
+- `pip install jupyter-dash`
 - pip install pandas
 - pip install matplotlib
 - pip install pymongo
