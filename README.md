@@ -90,7 +90,7 @@ The outcomes I focused on for this project were a collaborative environment and 
 
 Original Artifact: [Animal Shelter Juypiter Notebook](./JuypiterNotebook)
 
-Updated Artifact: [Android Inventory App](./DotNetAnimalShelter)
+Updated Artifact: [.NET Animal Shelter](./DotNetAnimalShelter)
 
 ## References
 - Generate Header Images: https://leviarista.github.io/github-profile-header-generator/
